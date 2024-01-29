@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Indefinitely writes "I am alive" to the /tmp/my_process file.
+#   In between each iteration is a sleep 2.
+
+while true
+do
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
+done
